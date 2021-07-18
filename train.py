@@ -9,7 +9,6 @@ from lightgbm import LGBMClassifier
 from sklearn.metrics import classification_report, accuracy_score, f1_score
 from category_encoders import OrdinalEncoder
 from sklearn.preprocessing import MinMaxScaler
-from imblearn.over_sampling import SMOTENC
 
 
 SRC_FILE = './data/6 class csv.csv'
